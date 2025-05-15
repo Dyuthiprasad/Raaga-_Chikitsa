@@ -10,12 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
+  firebase_core: any  # Let it choose the latest compatible version
+  firebase_auth: any  # Let it choose the latest compatible version
+  cloud_firestore: any  # Let it choose the latest compatible version
+  cupertino_icons: any  # Let it choose the latest compatible version
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^5.0.0  # This can remain as is since you want the latest
 
 flutter:
   uses-material-design: true
